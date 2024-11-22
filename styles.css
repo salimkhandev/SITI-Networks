@@ -1,0 +1,73 @@
+/* General Reset */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul .submenu {
+    position: absolute;
+    top: 100%;
+    /* Place submenu below the parent menu item */
+    left: 0;
+    max-height: 0;
+    /* Initially hidden */
+    overflow: hidden;
+    /* Prevent content from overflowing */
+    opacity: 0;
+    /* Make invisible initially */
+    visibility: hidden;
+    /* Prevent interaction */
+    transition: all 0.4s ease;
+    /* Smooth transition */
+    background-color: #f8f9fa;
+    /* Optional styling */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional styling */
+    z-index: 10;
+}
+
+/* When hovering over the parent menu item */
+.navbar li:hover>.submenu {
+    max-height: 500px;
+    /* Set an adequate max-height to show submenu */
+    opacity: 1;
+    /* Fade-in effect */
+    visibility: visible;
+    /* Enable interaction */
+}
+
+/* Styling submenu links */
+.navbar ul .submenu li {
+    padding: 5px 15px;
+}
+
+.navbar ul .submenu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s;
+}
+
+.navbar ul .submenu li a:hover {
+    color: #007bff;
+    /* Highlight link on hover */
+}
+
+/* Styling for top-level menu links */
+.navbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
