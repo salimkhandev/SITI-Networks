@@ -1022,3 +1022,39 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
                                 footer  ul li a:hover{
                                     text-decoration: underline;
                                 }
+
+                                                                        .custom-carousel-button {
+                                                                            background-color: #007bff;
+                                                                            /* Blue background */
+                                                                            color: #ffffff;
+                                                                            /* White icon color */
+                                                                            border: none;
+                                                                            /* Remove border */
+                                                                            border-radius: 50%;
+                                                                            /* Circular button */
+                                                                            width: 50px;
+                                                                            /* Button width */
+                                                                            height: 50px;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            opacity: 0.8;
+                                                                            transition: opacity 0.3s, transform 0.3s;
+                                                                        }
+                                    
+                                                                        .custom-carousel-button:hover {
+                                                                            opacity: 1;
+                                                                            /* Full opacity on hover */
+                                                                            transform: scale(1.1);
+                                                                            /* Slightly enlarge the button on hover */
+                                                                        }
+                                    
+                                                                        /* Style for the control icons */
+                                                                        .custom-icon {
+                                                                            filter: invert(1);
+                                                                            /* Ensure white icon color for default Bootstrap icons */
+                                                                            width: 20px;
+                                                                            /* Icon width */
+                                                                            height: 20px;
+                                                                            /* Icon height */
+                                                                        }
