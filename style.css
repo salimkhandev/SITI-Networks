@@ -705,7 +705,7 @@ padding: 0px !important;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     min-width: 200px;
-    left: 62px;
+    left: 90px;
     top: 37px;
 
 }
@@ -737,7 +737,7 @@ padding: 0px !important;
 
     z-index: 1000;
     min-width: 200px;
-    left: 177px;
+    left: 199px;
     top: 37px;
 
 }
@@ -788,15 +788,10 @@ padding: 0px !important;
 
     display: block;
 
-    /* background-color: red; */
 
 }
 
 
-/* helo */
-
-
-/* Consumer Corner */
 .consumercorner ul.showmecorner li a {
     text-decoration: none;
     color: #333;
@@ -819,7 +814,7 @@ padding: 0px !important;
     position: absolute;
     z-index: 1000;
     min-width: 200px;
-    left: 288px;
+    left: 311px;
 top: 37px;
 }
 
@@ -863,8 +858,8 @@ top: 37px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     min-width: 200px;
-    left: 455px;
-top: 37px;
+    left: 466px;
+    top: 37px;
 }
 
 .corporate ul.showmecorporate a {
@@ -907,7 +902,7 @@ top: 37px;
     position: absolute;
     z-index: 1000;
     min-width: 200px;
-    left: 560px;
+    left: 570px;
 top: 37px;
 }
 
@@ -994,7 +989,7 @@ top: 37px;
     position: absolute;
     z-index: 1000;
     min-width: 200px;
-    left: 815px;
+    left: 800px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 top: 37px;}
 
@@ -1038,7 +1033,7 @@ top: 37px;}
     position: absolute;
     z-index: 1000;
     min-width: 200px;
-    left: 870px;
+    left: 900px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     top: 37px;
 }
