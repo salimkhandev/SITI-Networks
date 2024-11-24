@@ -525,13 +525,47 @@
     margin-bottom: 20px;
     color: white;
 }
-
-.image-1 button:hover {
-    background-color: #e64a19;
+.digital-tv-heading{
+    position: relative;
+        left: 255px;
+        top: 19px;
+        color: white;
+        font-size: 48px;
+        line-height: 58px;
+        width: 298.188px;
+        height: 74px;
+        transform: translate(15px, -11px);
 }
+.createyr{
+    position: relative;
+        left: 10px;
+        top: 73px;
+        color: white;
+        width: 425.047px;
+        transform: translate(-89px, 0px);
+}
+.packagesButton{
+    position: relative;
+        left: -400px;
+        top: 139px;
+        display: flex;
+        justify-content: center;
+transition: background-color 0.3s ease-in-out;
+        align-items: center;
+}
+.packagesButton:hover{
+    background-color: #000;
+    color: white;
+}
+
+.manage:hover{
+ color: blue;}
+.help:hover{
+ color: blue;}
 
 .image-2 {
     background-image: url('./images/bg_sitihdplus.jpg');
+    cursor: pointer;
 
 }
 
