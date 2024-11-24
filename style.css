@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     scroll-behavior: smooth;
+
 }
 
 .section-wrapper {
@@ -335,9 +335,10 @@
 
 
 
-.navbar a:not(:last-child)::after {
+.navbar a::after {
 
     content: "";
+    
     position: absolute;
     right: -19px;
 
@@ -352,10 +353,9 @@
 }
 
 
-.navbar a:last-child::after {
-    content: none;
+.accountlogin a::after {
+    content: none !important;
 }
-
 
 .hero-section {
     text-align: center;
