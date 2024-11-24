@@ -294,7 +294,6 @@
     left: -30px;
     top: -1px;
     transition: none;
-    cursor: move;
     width: 1030px;
     transform: translate(53.6364px, 0px);
     display: flex;
@@ -621,7 +620,6 @@ transition: background-color 0.3s ease-in-out;
     left: -192px;
     top: 0px;
     transition: none;
-    cursor: move;
     width: 95.4545px;
     height: 73.6364px;
 }
