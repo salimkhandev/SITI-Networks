@@ -1,16 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
     scroll-behavior: smooth;
 
-
-}
-
-html,
-body {
-    overflow-x: hidden;
 }
 
 .section-wrapper {
@@ -137,10 +130,12 @@ body {
     background-color: #fff;
     padding: 20px;
     border: solid 1px #979797;
-    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     max-width: 500px;
     z-index: 1;
+
+    height: 310.719px;
+    transform: translate(0px, 25px);
     width: 517px;
     height: 341.719px;
     transform: translate(0px, -10px);
@@ -171,9 +166,6 @@ body {
     width: 474px;
     background-color: #fff;
 
-}
-.second img{
-    display: none;
 }
 
 .broadband-content h1 {
@@ -327,11 +319,10 @@ body {
 }
 
 .mynav {
-    position: fixed;
-    top: 0;
+    position: sticky;
+    top: 01px;
     transition: none;
-    width: 100%;
-    z-index:2;
+    z-index: 2;
     background-color: white;
 }
 
@@ -346,7 +337,7 @@ body {
 .navbar a::after {
 
     content: "";
-
+    
     position: absolute;
     right: -19px;
 
@@ -382,9 +373,9 @@ body {
 
 .footer {
     background-color: #f8f8f8;
+    padding: 40px 20px;
     font-size: 14px;
-
-    height: 100%;
+    height: 534.188px;
     color: #333;
 }
 
@@ -431,8 +422,11 @@ body {
     color: white;
     position: relative;
     font-size: 14px;
-    width: 100%;
-
+    width: 1572px;
+    transform: translate(-18px, 0px);
+    left: -1px;
+    top: 100px;
+    transition: none;
 }
 
 .footer-bottom a {
@@ -444,7 +438,6 @@ body {
 
 
 .social-icons {
-
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -469,7 +462,6 @@ body {
 .back-to-top {
     position: fixed;
     bottom: 20px;
-    overflow: hidden;
     right: 20px;
     background-color: orange;
     color: white;
@@ -501,9 +493,6 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -512,7 +501,8 @@ body {
     background-image: url('./images/smallgirl.jpg');
 
     display: flex;
-    justify-content: center;
+    justify-content:
+        center;
     align-items: center;
     height: 973px;
 
@@ -530,54 +520,47 @@ body {
 }
 
 .image-1 p {
-    font-size: 12px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
     color: white;
 }
-
-.digital-tv-heading {
+.digital-tv-heading{
     position: relative;
-    left: 255px;
-    top: 19px;
-    color: white;
-    font-size: 48px;
-    line-height: 58px;
-    width: 298.188px;
-    height: 74px;
-    transform: translate(15px, -11px);
+        left: 255px;
+        top: 19px;
+        color: white;
+        font-size: 48px;
+        line-height: 58px;
+        width: 298.188px;
+        height: 74px;
+        transform: translate(15px, -11px);
 }
-
-.createyr {
+.createyr{
     position: relative;
-    left: 10px;
-    top: 73px;
-    color: white;
-    width: 425.047px;
-    transform: translate(-89px, 0px);
+        left: 10px;
+        top: 73px;
+        color: white;
+        width: 425.047px;
+        transform: translate(-89px, 0px);
 }
-
-.packagesButton {
+.packagesButton{
     position: relative;
-    left: -400px;
-    top: 139px;
-    display: flex;
-    justify-content: center;
-    transition: background-color 0.3s ease-in-out;
-    align-items: center;
+        left: -400px;
+        top: 139px;
+        display: flex;
+        justify-content: center;
+transition: background-color 0.3s ease-in-out;
+        align-items: center;
 }
-
-.packagesButton:hover {
+.packagesButton:hover{
     background-color: #000;
     color: white;
 }
 
-.manage:hover {
-    color: blue;
-}
-
-.help:hover {
-    color: blue;
-}
+.manage:hover{
+ color: blue;}
+.help:hover{
+ color: blue;}
 
 .image-2 {
     background-image: url('./images/bg_sitihdplus.jpg');
@@ -591,9 +574,8 @@ body {
 
 .carousel {
     width: 100%;
-    height: 260px;
-    height: 260px;
-margin-top: 144px;
+    height: 200px;
+
     background: url('carousel-background.png') no-repeat center/cover;
 
     position: relative;
@@ -1124,441 +1106,10 @@ footer ul li a:hover {
     height: 20px;
 }
 
-/* I have applied css for mobile eg A70 or A71 */
-@media (max-width: 768px) {
-
-
-    .mynav {
-        position: relative;
+@media screen and (max-width: 768px) {
+    body{
+        background-color: red;
     }
-
-    .digital-tv-heading {
-        position: relative;
-        left: 0;
-        top: 0;
-        color: white;
-        font-size: 48px;
-        line-height: 0;
-        width: 298.188px;
-        height: 74px;
-        transform: translate(15px, -11px);
-
-    }
-
-    .navbar {
-        display: flex;
-
-        flex-direction: column !important;
-        padding: 10px !important;
-        gap: 20px !important;
-        background-color: #f9f9f9 !important;
-        margin: 0 !important;
-        border: none !important;
-        box-shadow: none !important;
-    }
-
-    .navbar>div,
-    .navbar .boardband,
-    .navbar .cabletv,
-    .navbar .consumercorner,
-    .navbar .corporate,
-    .navbar .inventorrelations,
-    .navbar .media,
-    .navbar .cirp,
-    .navbar .accountlogin {
-        all: unset !important;
-
-        border-radius: 8px !important;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
-        transition: all 0.3s ease-in-out !important;
-    }
-
-    .navbar>div>a,
-    .navbar .boardband>a,
-    .navbar .cabletv>a,
-    .navbar .consumercorner>a,
-    .navbar .corporate>a,
-    .navbar .inventorrelations>a,
-    .navbar .media>a,
-    .navbar .cirp>a,
-    .navbar .accountlogin>a {
-        display: block !important;
-        font-size: 16px !important;
-        font-weight: bold !important;
-        text-decoration: none !important;
-        color: #007bff !important;
-        margin-bottom: 5px !important;
-        text-align: center !important;
-        padding: 5px 0 !important;
-    }
-
-    .navbar>div>a::after,
-    .navbar .boardband>a::after,
-    .navbar .cabletv>a::after,
-    .navbar .consumercorner>a::after,
-    .navbar .corporate>a::after,
-    .navbar .inventorrelations>a::after,
-    .navbar .media>a::after,
-    .navbar .cirp>a::after,
-    .navbar .accountlogin>a::after {
-        content: '' !important;
-        display: block !important;
-        width: 100% !important;
-        height: 1px !important;
-        background-color: #ddd !important;
-        margin-top: 20px !important;
-    }
-
-    .navbar>div ul,
-    .navbar .boardband ul,
-    .navbar .cabletv ul,
-    .navbar .consumercorner ul,
-    .navbar .corporate ul,
-    .navbar .inventorrelations ul,
-    .navbar .media ul,
-    .navbar .cirp ul,
-    .navbar .accountlogin ul {
-        all: unset !important;
-        display: block !important;
-        list-style: none !important;
-        padding: 24px 1px 16px 14px !important;
-        margin: 0 !important;
-        text-align: left !important;
-    }
-
-
-    .navbar>div ul li:last-child,
-    .navbar .boardband ul li:last-child,
-    .navbar .cabletv ul li:last-child,
-    .navbar .consumercorner ul li:last-child,
-    .navbar .corporate ul li:last-child,
-    .navbar .inventorrelations ul li:last-child,
-    .navbar .media ul li:last-child,
-    .navbar .cirp ul li:last-child,
-    .navbar .accountlogin ul li:last-child {
-        border-bottom: none !important;
-    }
-
-    .navbar>div ul li a,
-    .navbar .boardband ul li a,
-    .navbar .cabletv ul li a,
-    .navbar .consumercorner ul li a,
-    .navbar .corporate ul li a,
-    .navbar .inventorrelations ul li a,
-    .navbar .media ul li a,
-    .navbar .cirp ul li a,
-    .navbar .accountlogin ul li a {
-        all: unset !important;
-        font-size: 14px !important;
-        text-decoration: none !important;
-        color: #333 !important;
-        transition: color 0.3s ease !important;
-    }
-
-    .navbar>div ul li a:hover,
-    .navbar .boardband ul li a:hover,
-    .navbar .cabletv ul li a:hover,
-    .navbar .consumercorner ul li a:hover,
-    .navbar .corporate ul li a:hover,
-    .navbar .inventorrelations ul li a:hover,
-    .navbar .media ul li a:hover,
-    .navbar .cirp ul li a:hover,
-    .navbar .accountlogin ul li a:hover {
-        color: #007bff !important;
-        color: white !important;
-    }
-.carousel{
-    height:0px;
-}
-    .carousel-inner img {
-        width: 100%;
-height: 99px;
-    }
-
-    .broadband-container {
-
-
-        all: unset;
-
-    }
-
-    .broadband-content {
-        width: 100%;
-        background-color: #F9F9F9;
-        transform: translate(-65px, -20.6667px);
-
-
-    }
-.image-2{
-    display: none;
 }
 
 
-    .fab {
-
-        height: 2px;
-        font-size: 12px;
-        width: 20px;
-
-    }
-
-    .social-icons a {
-        margin: 0 !important;
-    }
-
-    .sitip {
-        font-size: 22px;
-        line-height: 29px;
-        /* width: 412px !important; */
-    }
-
-
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 30px;
-        /* Adjust arrow button size */
-        height: 30px;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        background-color: #007bff;
-        border-radius: 50%;
-        padding: 5px;
-    }
-
-    /* Icon Container */
-    .icon-container {
-        flex-wrap: nowrap !important;
-
-    }
-
-    .icon-item {
-        position: static !important;
-        left: auto !important;
-        top: auto !important;
-    }
-
-
-    .icon-item {
-        flex: 1 1 45%;
-        margin: 10px 0;
-    }
-
-    .broadband-content h1 {
-        left: 27px;
-    }
-
-
-    .icon-item img {
-
-        max-width: 50px;
-        margin-bottom: 5px;
-    }
-
-    .icon-item p {
-        font-size: 12px;
-    }
-
-    .image-container {
-        margin: 15px;
-    }
-
-    .digital-tv-heading {
-        font-size: 16px;
-    }
-
-    .createyr {
-        left: 2px;
-        font-size: 12px;
-        transform: translate(-99px, -71px);
-
-    }
-
-    .packagesButton {
-        padding: 0px !important;
-
-        position: relative;
-
-        left: -258px;
-
-        top: 38px;
-
-    }
-
-
-    .broadband-section {
-        padding: 15px;
-        text-align: center;
-        padding: 9px;
-
-    }
-
-    .broadband-content h1 {
-        font-size: 24px;
-    }
-
-    .broadband-content p {
-        font-size: 14px;
-        padding: 0 10px;
-    }
-
-    .broadband-buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .buy-broadband,
-    .existing-user {
-        font-size: 12px;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .section-wrapper {
-        display: block;
-    }
-
-    .image-wrapper img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .image-1 {
-        height: 300px;
-        background-size: contain;
-        background-position: center;
-        padding: 20px;
-    }
-
-
-    .footer {
-        height: 100%;
-    }
-
-    .back-to-top {
-        display: none;
-    }
-
-    .content h1 {
-        font-size: 18px;
-    }
-
-    .content p {
-        font-size: 14px;
-        text-align: justify;
-    }
-
-    .btn {
-        font-size: 12px;
-        padding: 8px 15px;
-    }
-
-    .footer-container {
-        flex-wrap: wrap;
-        padding: 10px;
-    }
-
-    .footer-column {
-        flex: 1 1 100%;
-        margin-bottom: 15px;
-    }
-
-    .footer-column h3 {
-        font-size: 16px;
-    }
-
-    .footer-column ul {
-        padding-left: 10px;
-    }
-
-    .footer-column ul li a {
-        font-size: 14px;
-    }
-
-    .social-icons {
-        margin: 10px 0;
-
-        transform: translate(120px, 9px) !important;
-    }
-
-    .social-icons a {
-        font-size: 18px;
-        margin: 0 5px;
-    }
-
-    .broadband-container {
-
-        left: 0px;
-    }
-
-    .first {
-        display: none;
-    }
-
-    .broadband-buttons {
-        flex-direction: row;
-        gap: 0px;
-
-    }
-
-    .broadband-section {
-        display: block;
-    }
-
-    .back-to-top {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        font-size: 16px;
-    }
-
-
-    .broadband-image {
-        display: none;
-    }
-.forlargevp{
-    display: none;
-}
-    .second {
-        display: none;
-    }
-
-    .back-to-top a {
-        padding: 10px;
-        background-color: #007bff;
-        color: #fff;
-        border-radius: 50%;
-        text-decoration: none;
-    }
-
-    .customer-support {
-        flex-direction: column;
-        text-align: center;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    .customer-support a {
-        display: block;
-        margin-bottom: 3px;
-    }
-
-    .customer-support img {
-        left: 9px;
-        top: -14px;
-
-    }
-
-}
-
-.footer-bottom {
-    text-align: center;
-    padding: 15px 20px;
-    background-color: #ff4200;
-    color: white;
-    position: relative;
-    font-size: 14px;
-    width: 100%;
-}

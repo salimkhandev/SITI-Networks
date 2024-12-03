@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>India's leading Multi System Operator igital Services | Digital Cable TV | ...</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -163,47 +165,32 @@
             </div>
         </nav>
 
+        <!-- Hero Section -->
 
 
     </div>
-    <div class="carousel" id="top">
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/Carousel/1.jpg" class="d-block w-100" alt="Slide 1">
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Carousel/2.jpg" class="d-block w-100" alt="Slide 2">
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Carousel/3.jpg" class="d-block w-100" alt="Slide 3">
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Carousel/4.jpg" class="d-block w-100" alt="Slide 4">
-
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+<!-- New Carousel Section -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/Carousel/1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./images/Carousel/2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./images/Carousel/3.jpg" alt="Third slide">
         </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
 
     <div class="icon-container">
         <div class="icon-item" style="position: relative; left: 129px; top: -3px;">
@@ -224,6 +211,7 @@
         </div>
     </div>
 
+    <!-- images -->
     <div class="image-container">
         <div class="image image-1" style="display: flex; justify-content: center; align-items: center;">
             <h1 class="digital-tv-heading">
@@ -232,11 +220,13 @@
             </h1>
             <p class="createyr">
                 Create your own pack of entertainment.</p>
-            <button class="packagesButton">Packages</button>
+            <button
+                class="packagesButton">Packages</button>
 
         </div>
         <div class="image image-2"></div>
     </div>
+    <!-- end images -->
     <section class="broadband-section">
         <div class="broadband-container">
             <div class="broadband-content">
@@ -258,11 +248,7 @@
         <div class="broadband-image">
             <img src="./images//entertainment-right.png" alt="Broadband Users">
         </div>
-          
     </section>
-    <div class="forlargevp">
-        <img src="./images/siti-valocity-banner.jpg" alt="Broadband Users">
-    </div>
 
 
     <section class="section-wrapper">
@@ -282,14 +268,14 @@
             <div class="side-menu-item">
                 <i class="fas fa-user-circle"></i>
                 <a href="#" class="manage">
-                    Manage Your Account
+                   Manage Your Account
                 </a>
                 <span>&gt;</span>
             </div>
             <div class="side-menu-item">
                 <i class="fas fa-question-circle"></i>
                 <a href="#" class="help">
-                    Help
+                  Help
                 </a>
                 <span>&gt;</span>
             </div>
@@ -299,6 +285,7 @@
     </section>
     <footer class="footer">
         <div class="footer-container">
+            <!-- Services -->
             <div class="footer-column">
                 <h3>Services</h3>
                 <ul>
@@ -307,6 +294,7 @@
                     <li><a href="#">HD Services</a></li>
                 </ul>
             </div>
+            <!-- Digital TV Packages -->
             <div class="footer-column">
                 <h3>Digital TV Packages</h3>
                 <ul>
@@ -315,6 +303,7 @@
                     <li><a href="#">Subscriber Form</a></li>
                 </ul>
             </div>
+            <!-- Customer Care -->
             <div class="footer-column">
                 <h3>Customer Care</h3>
                 <ul>
@@ -327,6 +316,7 @@
 
                 </ul>
             </div>
+            <!-- Corporate -->
             <div class="footer-column">
                 <h3>Corporate</h3>
                 <ul>
@@ -352,7 +342,7 @@
                     <li><a href="#">Media Kit</a></li>
                 </ul>
             </div>
-
+            <!-- Life@SITI -->
             <div class="footer-column">
                 <h3>Life@SITI</h3>
                 <ul>
@@ -360,7 +350,7 @@
                     <li><a href="#">Careers</a></li>
                 </ul>
             </div>
-
+            <!-- Joint Ventures -->
             <div class="footer-column">
                 <h3 style="color:blue;">Joint Ventures</h3>
                 <ul>
@@ -375,7 +365,7 @@
                 </ul>
             </div>
         </div>
-
+        <!-- Social Icons -->
         <div class="social-icons">
             <span>Siti on social :|</span>
             <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
@@ -397,6 +387,7 @@
             </p>
         </div>
 
+        <!-- Bottom Bar -->
         <div class="footer-bottom">
             &copy; Copyright 2016 Siti Networks Limited. |
             <a href="#">Terms of Use</a> |
@@ -405,7 +396,7 @@
         </div>
     </footer>
     <div class="back-to-top"><a href="#top">&#9650;</a></div>
-
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
