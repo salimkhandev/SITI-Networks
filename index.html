@@ -10,23 +10,31 @@
     <!--importing for icons  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <!--importing for carousel  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 
 </head>
 
 <body>
-    <div class="mynav">
 
+    <div class="mynav">
+           
         <!-- Customer Support Section -->
-        <div class="customer-support">
+        <div class="customer-support" 
+>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
             <img class="logo" src="./images/logo.png" width="100" height="100" alt="SITI Networks">
             <a class="quick" href="#"><i class="fa-sharp-duotone fa-solid fa-play"></i> Quick Recharge</a>
             <a href="#"><i class="fa-sharp-duotone fa-solid fa-play"></i> Customer Support</a>
             <span class="imspan">Toll Free Number: 1800 1234 001</span>
         </div>
-
-        <!-- Navbar -->
+        
+        <!-- 
+         -->
         <nav class="navbar">
+          
             <div class="container">
                 <a href="https://salimkhandev.vercel.app" target="_blank">Home</a>
                 <div class="boardband">
@@ -167,44 +175,19 @@
 
 
     </div>
-    <div class="carousel" id="top">
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+   
+
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="./images/Carousel/1.jpg" alt="Slide 1" class="active">
+                <img src="./images/Carousel/2.jpg" alt="Slide 2">
+                <img src="./images/Carousel/3.jpg" alt="Slide 3">
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/Carousel/1.jpg" class="d-block w-100" alt="Slide 1">
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Carousel/2.jpg" class="d-block w-100" alt="Slide 2">
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Carousel/3.jpg" class="d-block w-100" alt="Slide 3">
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Carousel/4.jpg" class="d-block w-100" alt="Slide 4">
-
-                </div>
+            <div class="carousel-controls">
+                <button class="control prev">❮</button>
+                <button class="control next">❯</button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
 
     <div class="icon-container">
         <div class="icon-item" style="position: relative; left: 129px; top: -3px;">
@@ -406,8 +389,8 @@
         </div>
     </footer>
     <div class="back-to-top"><a href="#top">&#9650;</a></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="index.js"></script>
 </body>
 
 </html>
