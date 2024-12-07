@@ -19,7 +19,6 @@ const hamburgerButton = document.querySelector('.hamburger');
             });
         }
 
-   
         prevButton.addEventListener('click', () => {
             currentIndex = (currentIndex - 1 + images.length) % images.length;
             showImage(currentIndex);
