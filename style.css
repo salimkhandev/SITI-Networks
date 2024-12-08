@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    
+
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -11,56 +12,67 @@ html,
 body {
     overflow-x: hidden;
 }
+
 .carousel-controls {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .control {
-  background-color: crimson;
-  color: white;
-  border: none;
-  opacity: 0.8;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+    background-color: crimson;
+    color: white;
+    border: none;
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
 
 .control:hover {
-  background-color: #d42b2b;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #d42b2b;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .control:active {
-  transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 .control.prev::before {
-  content: "←";
-  font-size: 18px;
-  
+    content: "←";
+    font-size: 18px;
+
 }
-.control.prev{
-    position: relative; left: -558px; top: -350px; width: 69px; height: 64px; 
-    
+
+.control.prev {
+    position: relative;
+    left: -558px;
+    top: -350px;
+    width: 69px;
+    height: 64px;
+
 }
-.control.next{
-    position: relative; left: 576px; top: -355px; width: 67px; height: 66px;
+
+.control.next {
+    position: relative;
+    left: 576px;
+    top: -355px;
+    width: 67px;
+    height: 66px;
 
 }
 
 .control.next::before {
-  content: "→";
-  font-size: 18px;
+    content: "→";
+    font-size: 18px;
 }
 
 
@@ -153,9 +165,11 @@ body {
     flex: 1;
     padding: 20px;
 }
-.seeMore{
+
+.seeMore {
     color: red
 }
+
 .side-menu-item {
     display: flex;
     align-items: center;
@@ -217,7 +231,7 @@ body {
     border-radius: 8px;
     max-width: 500px;
     z-index: 1;
-font-family: 'Roboto';
+    font-family: 'Roboto';
     height: 341.719px;
     transform: translate(0px, -10px);
     left: 190px;
@@ -480,7 +494,9 @@ font-family: 'Roboto';
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: relative; left: 61px; top: 9px;
+    position: relative;
+    left: 61px;
+    top: 9px;
 }
 
 .footer-column {
@@ -527,16 +543,18 @@ font-family: 'Roboto';
     color: #fff;
     text-decoration: none;
     margin: 0 5px;
-    
+
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
     transform: scale(1.2);
 }
-.social-icons a{
+
+.social-icons a {
 
     transition: transform 300ms ease-in-out;
 }
+
 .social-icons {
     margin-top: 20px;
     display: flex;
@@ -637,13 +655,20 @@ font-family: 'Roboto';
     width: 298.188px;
     height: 74px;
     left: 10px;
-        top: 0px;
+    top: 0px;
     transform: translate(15px, -11px);
 }
-.mytext{
 
-    width: 357.047px; transform: translate(72px, -82px); position: relative; left: -46px; top: -246px; height: 193px;
+.mytext {
+
+    width: 357.047px;
+    transform: translate(72px, -82px);
+    position: relative;
+    left: -46px;
+    top: -246px;
+    height: 193px;
 }
+
 .createyr {
     position: relative;
     font-size: 28px !important;
@@ -659,7 +684,10 @@ font-family: 'Roboto';
     position: relative;
     left: 50px;
     /* top: 139px; */
-    left: 76px; top: 12px; height: 39px; transition: none;
+    left: 76px;
+    top: 12px;
+    height: 39px;
+    transition: none;
     display: flex;
     justify-content: center;
     transition: background-color 0.3s ease-in-out;
@@ -1523,7 +1551,7 @@ footer ul li a:hover {
         gap: 10px;
     }
 
-   
+
 
     .section-wrapper {
         display: block;
@@ -1674,12 +1702,12 @@ footer ul li a:hover {
     width: 100%;
 }
 
-@media (max-width:1331px){
-    .control.prev{
-        position: static 
-        
+@media (max-width:1331px) {
+    .control.prev {
+        position: static
     }
-    .control.next{
-position: static;    
+
+    .control.next {
+        position: static;
     }
 }
