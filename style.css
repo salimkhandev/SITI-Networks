@@ -5,8 +5,6 @@
     
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
-    
 }
 
 html,
@@ -155,7 +153,9 @@ body {
     flex: 1;
     padding: 20px;
 }
-
+.seeMore{
+    color: red
+}
 .side-menu-item {
     display: flex;
     align-items: center;
@@ -279,8 +279,8 @@ font-family: 'Roboto';
     color: #fff;
     height: 40.2031px !important;
 
-
 }
+
 
 .buy-broadband {
     background-color: #ff4200;
@@ -312,6 +312,7 @@ font-family: 'Roboto';
     color: white;
 
 
+
 }
 
 .buy-broadband:hover {
@@ -339,7 +340,6 @@ font-family: 'Roboto';
 }
 
 
-/* customer support */
 .customer-support {
 
     padding: 10px 20px;
@@ -521,19 +521,23 @@ font-family: 'Roboto';
     position: relative;
     font-size: 14px;
     width: 100%;
-
 }
 
 .footer-bottom a {
     color: #fff;
     text-decoration: none;
     margin: 0 5px;
+    
 }
 
+.social-icons a:hover{
+    transform: scale(1.2);
+}
+.social-icons a{
 
-
+    transition: transform 300ms ease-in-out;
+}
 .social-icons {
-
     margin-top: 20px;
     display: flex;
     align-items: center;
